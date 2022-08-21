@@ -1,0 +1,11 @@
+li{
+    font-style: italic;
+    font-size: 36px;
+}
+.container-fluid{
+    margin: -0.5rem;
+    margin-left: -0.8rem;
+}
+nav{
+    padding: 0.5rem;
+}

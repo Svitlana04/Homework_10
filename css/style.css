@@ -1,0 +1,111 @@
+body{
+    margin: 1rem;
+    font-family: "Work Sans",sans-serif;
+}
+div{
+    background-color: aqua;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    box-shadow: 7px 7px 0px #000000;
+}
+section{
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: repeat(5, 0.45fr);
+    background-color: rgb(243, 111, 67);
+    border-radius: 20px;
+    gap: 1px;
+}
+section div:nth-child(1){
+    grid-row: 1/5;
+    grid-column: 1/3;
+}
+section div:nth-child(2){
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+section div:nth-child(5){
+    grid-row: 3/5;
+}
+section div:nth-child(3){
+    grid-row: 4/6;
+}
+section div:nth-child(6){
+    grid-column: 1/3;
+}
+.img{
+    text-align: center;
+    font-weight: 700;
+font-size: 24px;
+bo
+}
+.about1{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 2rem;
+}
+.general{
+    font-weight: 600;
+    font-size: 18px;
+}
+.about{
+    font-weight: 400;
+    font-size: 18px;
+}
+.job{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding: 1rem;
+}
+li{
+    font-weight: 400;
+    font-size: 14px;
+}
+.div_green{
+    box-shadow: 7px 7px 0px #29A71E;
+}
+.p_green{
+    color: #29A71E;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+    font-weight: 700;
+}
+.div_red{
+    box-shadow: 7px 7px 0px #E13535;
+}
+.p_red{
+    color: #E13535;;
+    margin-top: 0.3rem;
+    margin-bottom: 1.3rem;
+    font-weight: 700;
+}
+.div_red li{
+    margin-left: 1rem;
+}
+.div_blue{
+    box-shadow: 7px 7px 0px #3675B0;
+}
+.p_blue{
+    color: #3675B0;
+    margin-top: 0.3rem;
+    margin-bottom: 1.3rem;
+    font-weight: 700;
+}
+.div_blue li{
+    margin-left: 1rem;
+}
+.div_black li{
+    list-style-type: none;
+}
+.p_black{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+}
+h3{
+    margin-top: 0.3rem;
+    margin-bottom: -0.7rem;
+}
